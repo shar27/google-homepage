@@ -1,0 +1,123 @@
+.body {
+    margin:0;  
+    color: gainsboro;
+    }
+    
+    /*------nav-----*/
+    
+    a {
+        margin:5px;
+        text-decoration: none;
+        color: grey;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .top-nav {
+        display:flex;
+        align-items:flex-end;
+        margin-right:10px;
+    }
+    
+    ul > a, img {
+        
+        justify-content: flex-end;
+        padding: 0 0px;
+        margin-left: 0;
+       
+        }
+    .sign-in {
+        background-color: #4285f4;
+        color: #fff;
+        font-size:medium;
+        font-weight:bold;
+        padding: 5px;
+        width: 80px;
+        margin-left: 5px;
+        border-radius: 5px;
+        border: none;
+        border-color: #4285f4;
+    }
+    
+    
+    section {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+        
+    }
+
+    
+    .my-input {
+
+        display:flex;
+        justify-content: space-between;
+        width: 600px;
+        height:28px;
+        border: 1px solid  gainsboro;
+        border-radius: 20px;
+        background-color: none;
+        
+    }
+
+    .my-input > input {
+        flex-grow: 100;
+        background-color:white;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+    }
+
+    .my-input > img {
+        background-color: none;
+    }
+    
+
+
+.search-button {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 20px 5px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+    
+.bottom-left {
+    display:flex;
+    justify-content:start;
+    padding-left:15px;
+    align-items:center
+}
+        
+.bottom-right {
+    display:flex;
+    justify-content:end;
+    padding-right:15px;
+    align-items:center;
+}
+    
+    
+    
+    
+    
+    
+        
+        
+    /*footer*/
+    
+    
+    
+    
